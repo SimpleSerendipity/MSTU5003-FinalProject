@@ -29,14 +29,15 @@
     <div class="container-fluid">
         Situation1
         <form>
-            <input type="radio" value="1" autocomplete="off"> "Answer A"
+            <input type="radio" name="q1" value="1" autocomplete="off"> "Answer A"
             <br>
-            <input type="radio" value="2" autocomplete="off"> "Answer B"
+            <input type="radio" name="q1" value="2" autocomplete="off"> "Answer B"
             <br>
-            <input type="radio" value="3" autocomplete="off"> "Answer C"
+            <input type="radio" name="q1" value="3" autocomplete="off"> "Answer C"
         </form>
         Situation2
-        <form><input type="radio" autocomplete="off"> "Answer A"
+        <form>
+						<input type="radio" autocomplete="off"> "Answer A"
             <br>
             <input type="radio" autocomplete="off"> "Answer B"
             <br>
@@ -47,25 +48,23 @@
 
     <!--modal-->
     <div id="assessmentModal" class="modal fade" tabindex="-1" role="dialog" style="display:none">
-        <div class="modal-content">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <span class="close">x</span>
-                    <p>lala</p>
-                </div>
-            </div>
-            <!--end of modal-->
-
-
-
-
-
-
-        </div>
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<!-- <div class="modal-header">
+						<span class="close">x</span>
+					</div> -->
+					<div class="modal-body">
+						<p id="good">lala</p>
+						<p id="great" class="doNotShow">BLAH BLAH BLAH</p>
+					</div>
+					<!-- <div class="modal-footer"></div> -->
+				</div>
+			</div>
     </div>
 
 
-
+		<!-- jQUERY HERE -->
+		<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="main.js"></script>
 
