@@ -1,0 +1,49 @@
+/*navigation*/
+nav{
+
+width:100%;
+text-align:center;;
+float:right;
+background-color:white;
+}
+
+
+.navbar-default{
+	background-color:white;
+	border:transparent;
+	margin:0;
+}
+
+.collapsed{
+	background-color:white;
+	border:transparent;
+}
+
+nav ul{
+font-family:sans-serif;
+font-size:1em;
+color:black;
+
+}
+
+
+/*first section styling*/
+.first-section{
+	background-color:pink
+}
+
+
+/*second section styling*/
+.second-section{
+	background-color:yellow
+}
+
+/*third section styling*/
+.third-section{
+	background-color:aquamarine
+}
+
+
+.doNotShow {
+	display: none;
+}
